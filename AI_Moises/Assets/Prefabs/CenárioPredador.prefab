@@ -334,8 +334,8 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 1000
-  MoveSpeed: 20
+  MaxStep: 0
+  MoveSpeed: 50
   target: {fileID: 1679891646629407551}
   r: {fileID: 1679891645617392890}
 --- !u!65 &1679891645221531665
@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 14
+    VectorObservationSize: 4
     NumStackedVectorObservations: 5
     m_ActionSpec:
       m_NumContinuousActions: 2
@@ -374,7 +374,7 @@ MonoBehaviour:
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 0}
-  m_InferenceDevice: 0
+  m_InferenceDevice: 3
   m_BehaviorType: 0
   m_BehaviorName: Predador_B
   TeamId: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
-  m_ObservationStacks: 1
+  m_ObservationStacks: 2
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0, g: 1, b: 0.9903934, a: 1}
   m_StartVerticalOffset: 0
@@ -633,6 +633,7 @@ MonoBehaviour:
   - {fileID: 3948947563162067967}
   - {fileID: 111251763176279843}
   - {fileID: 3528242072400199417}
+  predador: {fileID: 1679891645221531665}
 --- !u!1 &1679891646171547654
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 834eec35592deee45bc6d77687922ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mul: 25
+  mul: 20
 --- !u!1 &1679891646884637626
 GameObject:
   m_ObjectHideFlags: 0

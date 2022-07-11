@@ -6,21 +6,13 @@ public class randomChild : MonoBehaviour
 {
     // Start is called before the first frame update
     public List<GameObject> myChilds;
+    public Collider predador;
 
     void Start()
     {
 
-     
 
-     
- 
-
-        foreach (GameObject item in myChilds)
-        {
-            item.transform.localPosition = new Vector3(Random.Range(-10, 10), item.transform.localPosition.y, Random.Range(-10, 10));
-            item.transform.rotation = Quaternion.Euler( 0, Random.Range(0,360), 0);
-
-        }
+        RandomPOS();
 
 
     }
@@ -30,7 +22,11 @@ public class randomChild : MonoBehaviour
         foreach (GameObject item in myChilds)
         {
             item.transform.localPosition = new Vector3(Random.Range(-10, 10), item.transform.localPosition.y, Random.Range(-10, 10));
-            item.transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
+            while (predador.bounds.Intersects(item.GetComponent<Collider>().bounds)) 
+            {
+                item.transform.localPosition = new Vector3(Random.Range(-10, 10), item.transform.localPosition.y, Random.Range(-10, 10));
+                item.transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
+            } 
 
         }
     }

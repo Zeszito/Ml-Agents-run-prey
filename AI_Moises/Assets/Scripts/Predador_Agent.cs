@@ -18,6 +18,7 @@ public class Predador_Agent : Agent
     {
         orig = this.transform.position;
         rgBd = this.GetComponent<Rigidbody>();
+
     }
     public override void OnEpisodeBegin()
     {
@@ -33,6 +34,7 @@ public class Predador_Agent : Agent
         //print("z " +moveZ * MoveSpeed);
 
         this.rgBd.AddForce(force);
+       // AddReward( Mathf.Clamp(1 - Vector3.Distance(this.transform.localPosition, target.transform.localPosition),-0.001f, +0.001f));
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -41,6 +43,7 @@ public class Predador_Agent : Agent
         sensor.AddObservation(target.transform.localPosition.x);
         sensor.AddObservation(transform.localPosition.y);
         sensor.AddObservation(target.transform.localPosition.y);
+
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -53,6 +56,11 @@ public class Predador_Agent : Agent
         {
             AddReward(1);
             EndEpisode();
+        }
+        if (collision.gameObject.tag == "Obestaculo")
+        {
+            AddReward(-0.05f);
+            
         }
     }
 }
