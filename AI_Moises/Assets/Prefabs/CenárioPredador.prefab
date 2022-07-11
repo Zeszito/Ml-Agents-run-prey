@@ -334,7 +334,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
+  MaxStep: 20000
   MoveSpeed: 50
   target: {fileID: 1679891646629407551}
   r: {fileID: 1679891645617392890}
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
-  m_ObservationStacks: 2
+  m_ObservationStacks: 5
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 0, g: 1, b: 0.9903934, a: 1}
   m_StartVerticalOffset: 0

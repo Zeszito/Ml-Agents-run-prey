@@ -2,22 +2,22 @@
     "Predador_B": {
         "checkpoints": [
             {
-                "steps": 64,
-                "file_path": "results\\Predador_Final\\Predador_B\\Predador_B-64.onnx",
+                "steps": 85608,
+                "file_path": "results\\Predador_Final\\Predador_B\\Predador_B-85608.onnx",
                 "reward": null,
-                "creation_time": 1657551752.5491354,
+                "creation_time": 1657553754.9387798,
                 "auxillary_file_paths": [
-                    "results\\Predador_Final\\Predador_B\\Predador_B-64.pt"
+                    "results\\Predador_Final\\Predador_B\\Predador_B-85608.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 64,
+            "steps": 85608,
             "file_path": "results\\Predador_Final\\Predador_B.onnx",
             "reward": null,
-            "creation_time": 1657551752.5491354,
+            "creation_time": 1657553754.9387798,
             "auxillary_file_paths": [
-                "results\\Predador_Final\\Predador_B\\Predador_B-64.pt"
+                "results\\Predador_Final\\Predador_B\\Predador_B-85608.pt"
             ]
         }
     },

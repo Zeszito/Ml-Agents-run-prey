@@ -16,13 +16,13 @@ public class Predador_Agent : Agent
 
     public override void Initialize()
     {
-        orig = this.transform.position;
+        orig = this.transform.localPosition;
         rgBd = this.GetComponent<Rigidbody>();
 
     }
     public override void OnEpisodeBegin()
     {
-        this.transform.position = orig;
+        this.transform.localPosition = orig;
         r.GetComponent<randomChild>().RandomPOS();
     }
     public override void OnActionReceived(ActionBuffers actions)
