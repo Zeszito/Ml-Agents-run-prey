@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 885775085, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_Constraints
+      value: 116
+      objectReference: {fileID: 0}
     - target: {fileID: 1679891645162483384, guid: 231b374f5c512be4a94d99b119296363, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -178,6 +182,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Cen\xE1rioPredador"
       objectReference: {fileID: 0}
+    - target: {fileID: 1679891646629407550, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2899884713967430931, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: r
+      value: 
+      objectReference: {fileID: 1323083746}
+    - target: {fileID: 2899884713967430931, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 851323150}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 231b374f5c512be4a94d99b119296363, type: 3}
 --- !u!1 &705507993
@@ -279,19 +295,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1679891646629407551, guid: 231b374f5c512be4a94d99b119296363, type: 3}
   m_PrefabInstance: {fileID: 693449219}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &851323156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 851323150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 834eec35592deee45bc6d77687922ee8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mul: 25
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,3 +379,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1323083746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1679891645617392890, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+  m_PrefabInstance: {fileID: 693449219}
+  m_PrefabAsset: {fileID: 0}

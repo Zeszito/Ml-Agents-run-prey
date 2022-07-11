@@ -25,5 +25,15 @@ public class randomChild : MonoBehaviour
 
     }
 
+    public void RandomPOS()
+    {
+        foreach (GameObject item in myChilds)
+        {
+            item.transform.localPosition = new Vector3(Random.Range(-10, 10), item.transform.localPosition.y, Random.Range(-10, 10));
+            item.transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
+
+        }
+    }
+
 
 }
