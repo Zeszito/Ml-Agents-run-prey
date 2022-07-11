@@ -939,6 +939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Cen\xE1rioPredador (14)"
       objectReference: {fileID: 0}
+    - target: {fileID: 1679891645162483385, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 231b374f5c512be4a94d99b119296363, type: 3}
 --- !u!1001 &782483373
@@ -1070,6 +1074,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 111251763176279843, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1679891645162483384, guid: 231b374f5c512be4a94d99b119296363, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -1122,6 +1130,54 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1679891645221531667, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645365337220, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645401125267, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645617392890, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891646171547654, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891646629407551, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891646884637626, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074790131434686719, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319855457301052262, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528242072400199417, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948947563162067967, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983816981752361658, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 231b374f5c512be4a94d99b119296363, type: 3}
 --- !u!1001 &905240355
@@ -1131,6 +1187,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 111251763176279843, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1679891645162483384, guid: 231b374f5c512be4a94d99b119296363, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -1180,6 +1240,54 @@ PrefabInstance:
       value: "Cen\xE1rioPredador (12)"
       objectReference: {fileID: 0}
     - target: {fileID: 1679891645162483385, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645221531667, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645365337220, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645401125267, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645617392890, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891646171547654, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891646629407551, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891646884637626, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074790131434686719, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319855457301052262, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528242072400199417, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948947563162067967, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983816981752361658, guid: 231b374f5c512be4a94d99b119296363, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -1459,6 +1567,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 111251763176279843, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1679891645162483384, guid: 231b374f5c512be4a94d99b119296363, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1508,6 +1620,54 @@ PrefabInstance:
       value: "Cen\xE1rioPredador (11)"
       objectReference: {fileID: 0}
     - target: {fileID: 1679891645162483385, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645221531667, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645365337220, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645401125267, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645617392890, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891646171547654, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891646629407551, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891646884637626, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074790131434686719, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319855457301052262, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528242072400199417, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948947563162067967, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983816981752361658, guid: 231b374f5c512be4a94d99b119296363, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -1629,6 +1789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Cen\xE1rioPredador (6)"
       objectReference: {fileID: 0}
+    - target: {fileID: 1679891645162483385, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 231b374f5c512be4a94d99b119296363, type: 3}
 --- !u!1001 &1997756185
@@ -1748,6 +1912,26 @@ PrefabInstance:
       value: "Cen\xE1rioPredador (3)"
       objectReference: {fileID: 0}
     - target: {fileID: 1679891645162483385, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645221531667, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645365337220, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645401125267, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891645617392890, guid: 231b374f5c512be4a94d99b119296363, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679891646629407551, guid: 231b374f5c512be4a94d99b119296363, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}

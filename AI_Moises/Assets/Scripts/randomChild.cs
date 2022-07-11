@@ -43,12 +43,8 @@ public class randomChild : MonoBehaviour
                 item.transform.localPosition = new Vector3(Random.Range(2, 10), item.transform.localPosition.y, Random.Range(-10, 2));
             };
             item.transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
-            if (predador.bounds.Intersects(item.GetComponent<Collider>().bounds)) 
-            {
-                item.SetActive(false);
-                predador.transform.position += Vector3.one;
-                //print("e agorA?");
-            } 
+       
+         
 
         }
     }

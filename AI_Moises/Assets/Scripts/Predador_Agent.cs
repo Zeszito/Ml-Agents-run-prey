@@ -34,7 +34,7 @@ public class Predador_Agent : Agent
         //print("z " +moveZ * MoveSpeed);
 
         this.rgBd.AddForce(force);
-       // AddReward( Mathf.Clamp(1 - Vector3.Distance(this.transform.localPosition, target.transform.localPosition),-0.001f, +0.001f));
+        AddReward(((Mathf.Tan(Vector3.Distance(this.transform.position, target.transform.position)*Mathf.PI/2)*-1)+1) * 0.001f);
     }
 
     public override void CollectObservations(VectorSensor sensor)
