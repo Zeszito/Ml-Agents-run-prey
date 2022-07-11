@@ -760,22 +760,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 851323156, guid: 231b374f5c512be4a94d99b119296363, type: 3}
-      propertyPath: mul
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 851323156, guid: 231b374f5c512be4a94d99b119296363, type: 3}
-      propertyPath: human
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1232480153528415069, guid: 231b374f5c512be4a94d99b119296363, type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 5022602860645237092, guid: 3dfa93e3febfbcc4881b6f15529fb4fc, type: 3}
-    - target: {fileID: 1232480153528415069, guid: 231b374f5c512be4a94d99b119296363, type: 3}
-      propertyPath: m_BehaviorType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1679891645162483384, guid: 231b374f5c512be4a94d99b119296363, type: 3}
       propertyPath: m_RootOrder
       value: 1

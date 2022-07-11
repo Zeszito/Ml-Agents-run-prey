@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 4
+    VectorObservationSize: 8
     NumStackedVectorObservations: 5
     m_ActionSpec:
       m_NumContinuousActions: 2
@@ -1052,6 +1052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 834eec35592deee45bc6d77687922ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  human: 0
   mul: 20
 --- !u!1 &1679891646884637626
 GameObject:

@@ -11,6 +11,7 @@ public class Predador_Agent : Agent
     public float MoveSpeed = 20;
     private Vector3 orig;
     private Rigidbody rgBd;
+    private Rigidbody rgBdT;
     public  GameObject target;
     public GameObject r;
 
@@ -18,7 +19,7 @@ public class Predador_Agent : Agent
     {
         orig = this.transform.localPosition;
         rgBd = this.GetComponent<Rigidbody>();
-
+        rgBdT = target.GetComponent<Rigidbody>();
     }
     public override void OnEpisodeBegin()
     {
@@ -44,6 +45,12 @@ public class Predador_Agent : Agent
         sensor.AddObservation(target.transform.localPosition.x);
         sensor.AddObservation(transform.localPosition.y);
         sensor.AddObservation(target.transform.localPosition.y);
+
+        sensor.AddObservation(rgBd.velocity.x);
+        sensor.AddObservation(rgBd.velocity.z);
+
+        sensor.AddObservation(rgBdT.velocity.x);
+        sensor.AddObservation(rgBdT.velocity.y);
 
     }
 
