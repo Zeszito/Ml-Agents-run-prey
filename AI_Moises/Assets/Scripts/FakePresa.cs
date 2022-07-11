@@ -7,6 +7,7 @@ public class FakePresa : MonoBehaviour
     // Start is called before the first frame update
     Vector3 dir;
     Rigidbody rg;
+    public bool human = false;
     public int mul = 20;
     void Start()
     {
@@ -33,11 +34,22 @@ public class FakePresa : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rg.AddForce(dir*mul);
-        if((((int)Time.fixedTime) % 5) == 0)
+        if (!human)
         {
-            dir = -dir;
+            rg.AddForce(dir * mul);
+            if ((((int)Time.fixedTime) % 5) == 0)
+            {
+                dir = -dir;
+            }
         }
+        else
+        {
+            float cB = -Input.GetAxisRaw("Horizontal");
+            float ca = -Input.GetAxisRaw("Vertical");
+            dir = (Vector3.forward * ca) + (Vector3.right * cB);
+            rg.AddForce(dir * mul);
+        }
+    
  
     }
 

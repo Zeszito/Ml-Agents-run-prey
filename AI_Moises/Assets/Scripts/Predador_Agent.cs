@@ -24,6 +24,7 @@ public class Predador_Agent : Agent
     {
         this.transform.localPosition = orig;
         r.GetComponent<randomChild>().RandomPOS();
+       
     }
     public override void OnActionReceived(ActionBuffers actions)
     {
@@ -34,7 +35,7 @@ public class Predador_Agent : Agent
         //print("z " +moveZ * MoveSpeed);
 
         this.rgBd.AddForce(force);
-        AddReward(((Mathf.Tan(Vector3.Distance(this.transform.position, target.transform.position)*Mathf.PI/2)*-1)+1) * 0.001f);
+        AddReward(((Mathf.Tan(Vector3.Distance(this.transform.position, target.transform.position)*Mathf.PI/2)*-1)+1) * 0.0001f);
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -59,8 +60,8 @@ public class Predador_Agent : Agent
         }
         if (collision.gameObject.tag == "Obestaculo")
         {
-            AddReward(-0.05f);
-            
+            AddReward(-0.3f);
+            EndEpisode();
         }
     }
 }

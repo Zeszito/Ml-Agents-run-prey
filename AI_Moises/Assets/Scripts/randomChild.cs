@@ -17,7 +17,7 @@ public class randomChild : MonoBehaviour
 
     }
 
-    public void RandomPOS()
+    public bool RandomPOS()
     {
         foreach (GameObject item in myChilds)
         {
@@ -43,10 +43,14 @@ public class randomChild : MonoBehaviour
                 item.transform.localPosition = new Vector3(Random.Range(2, 10), item.transform.localPosition.y, Random.Range(-10, 2));
             };
             item.transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
-       
-         
 
+
+            if (item.GetComponent<Collider>().bounds.Intersects(predador.bounds))
+            {
+                return false;
+            }
         }
+        return true;
     }
 
 
