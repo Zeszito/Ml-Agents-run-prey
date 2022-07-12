@@ -1,0 +1,38 @@
+{
+    "Predador_B": {
+        "checkpoints": [
+            {
+                "steps": 499991,
+                "file_path": "results\\NowWithSpeed\\Predador_B\\Predador_B-499991.onnx",
+                "reward": 0.2545453484461177,
+                "creation_time": 1657567252.5737696,
+                "auxillary_file_paths": [
+                    "results\\NowWithSpeed\\Predador_B\\Predador_B-499991.pt"
+                ]
+            },
+            {
+                "steps": 500007,
+                "file_path": "results\\NowWithSpeed\\Predador_B\\Predador_B-500007.onnx",
+                "reward": 0.24528615503194964,
+                "creation_time": 1657567252.622794,
+                "auxillary_file_paths": [
+                    "results\\NowWithSpeed\\Predador_B\\Predador_B-500007.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500007,
+            "file_path": "results\\NowWithSpeed\\Predador_B.onnx",
+            "reward": 0.24528615503194964,
+            "creation_time": 1657567252.622794,
+            "auxillary_file_paths": [
+                "results\\NowWithSpeed\\Predador_B\\Predador_B-500007.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.9.1"
+    }
+}
